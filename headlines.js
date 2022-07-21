@@ -4,7 +4,7 @@ document.getElementById("navbar").innerHTML = navbar()
 
 const api_key=`d9b5c5df959141f49872b888ccf266d4`;
 
-const url=`https://newsapi.org/v2/top-headlines?sources=sports&apiKey=d9b5c5df959141f49872b888ccf266d4`
+const url=`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d9b5c5df959141f49872b888ccf266d4`
 
 async function getdata(url){
     let res= await fetch(url)
@@ -13,6 +13,10 @@ async function getdata(url){
     append(data.articles)
 }
 getdata(url)
+
+let removeTime = (date = new Date()) =>{
+    return new Date(date.toDateString())
+ }
 
 function append(data){
     let container=document.getElementById('bottom-append')
@@ -27,7 +31,6 @@ function append(data){
         let y=document.createElement('p')
         y.innerText=x;
         y.setAttribute("class","date")
-        
 
         let det=document.createElement('p')
         det.innerText=el.description;
@@ -40,9 +43,10 @@ function append(data){
     })
 }
 
-// let removeTime = (date = new Date()) =>{
-//     return new Date(date.toDateString())
-// }
+//console.log(dd)
+
 // // d.setFullYear(2022);
 // // let text = d.toUTCString()
-// document.getElementById("demo").innerHTML = new Date().toDateString();
+//document.getElementById("demo").innerHTML =
+
+console.log(x)
