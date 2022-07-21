@@ -7,11 +7,52 @@
     <title>Navbar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style/nav.css">
+    <style>
+
+
+
+/* 
+#fix {
+  overflow: hidden;
+  background-color: white;
+}
+
+#fix a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+#fix a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+} */
+    </style>
 </head>
 <body>
+    <div id="fix">
     <section>
     <div id="demo">
-      
+       
     </div>
     <div id="logo">
         <a href="#"  class="fa fa-facebook"></a>
@@ -20,6 +61,7 @@
         <a href="#"  class="fa fa-linkedin" ></a>
     </div>
 </section>
+   
     <div id="top">
             <h1 id="top">Outlook</h1>
     <p>LOGIN   <span>  | </span>  SUBSCRIBE</p>
@@ -28,13 +70,27 @@
 
 
     <div id="navbar">
-       
-        <!-- <h3>
-            <input type="text"> <i class="fa fa-search"></i> >
-        </h3> -->
     </div>
     <h6></h6>
+
+</div>
+
+     
     
 </body>
 </html>
-<script src="./scripts/nav.js" type="module"></script>
+<script src="./scripts/nav.js" type="module">
+
+//     window.onscroll = function() {myFunction()};
+
+// var fix = document.getElementById("fix");
+// var sticky = fix.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     fix.classList.add("sticky")
+//   } else {
+//     fix.classList.remove("sticky");
+//   }
+// }
+</script>

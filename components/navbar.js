@@ -1,8 +1,12 @@
 let navbar = () =>{
     return `
+    
 
     <div>
-        <a href="#">HOME</a>
+        <a href="navbar.html">HOME</a>
+    </div>
+    <div>
+        <a href="./magazine.html">MAGAZINE</a>
     </div>
     <div>
         <a href="#">OUTLOOK</a>
@@ -32,9 +36,7 @@ let navbar = () =>{
     <div>
         <a href="#">PHOTOS</a>
     </div>
-    <div>
-        <a href="#">MAGAZINE</a>
-    </div>
+    
     <div>
         <a href="#">HINDI</a>
     </div>
