@@ -1,11 +1,15 @@
 let navbar = () =>{
     return `
+    
 
     <div>
-        <a href="#">HOME</a>
+        <a href="navbar.html">HOME</a>
     </div>
     <div>
-        <a href="#">OUTLOOK</a>
+        <a href="./magazine.html">MAGAZINE</a>
+    </div>
+    <div>
+        <a href="./outlook.html">OUTLOOK</a>
     </div>
     <div>
         <a href="#">BUSINESS</a>
@@ -32,9 +36,7 @@ let navbar = () =>{
     <div>
         <a href="#">PHOTOS</a>
     </div>
-    <div>
-        <a href="#">MAGAZINE</a>
-    </div>
+    
     <div>
         <a href="#">HINDI</a>
     </div>
@@ -43,7 +45,8 @@ let navbar = () =>{
     </div>
     <div>
         <a href="#">AGRITECH</a>
-    </div>`
+    </div>
+    `
 }
 
 export default navbar

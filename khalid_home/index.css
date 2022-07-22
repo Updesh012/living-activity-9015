@@ -1,0 +1,22 @@
+.heading {
+    font-size: 28px;
+    color: #D2051E;
+    /* font-family: 'kepler-std-condensed-subhead', serif; */
+}
+
+#nfContainer {
+    width: 100%;
+    /* height: 400px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 19% 19% 19%;
+    gap: 1%;
+}
+
+#nfContainer>div {
+    border: 1px solid black;
+}
+
+#nfDiv1SideHeading:hover {
+    color: #D2051E;
+}

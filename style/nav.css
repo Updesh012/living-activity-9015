@@ -70,3 +70,13 @@ color: whitesmoke;
 border-radius: 4px;
 padding-top: 7px;
 }
+#fix a:hover {
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+  #fix{
+    cursor: pointer;
+  }
