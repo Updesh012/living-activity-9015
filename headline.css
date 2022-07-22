@@ -65,3 +65,8 @@
     margin-top: 6px;
     font-family: 'Poppins', sans-serif;
 }
+.date{
+    margin-top: 20px;
+    width: 200px;
+    color: grey;
+}
