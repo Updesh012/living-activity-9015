@@ -1,0 +1,35 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 550px);
+    grid-template-rows: auto;
+    gap: 20;
+}
+#container>div{
+    /* border: 1px solid red; */
+    margin: 10px;
+    
+}
+img{
+    width: 500px;
+    border-radius: 5px;
+}
+h2{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Noto Serif', serif;
+    font-weight: 540;
+}
+img+h2+p{
+    margin-top: 10px;
+     font-family: 'EB Garamond', serif;
+     font-size: 20px;
+
+}
+img+h2+p+p{
+    color: red;
+    margin-top: 5px;
+}
+#apple{
+    text-align: center;
+    color: rgb(45, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+}

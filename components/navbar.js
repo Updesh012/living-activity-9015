@@ -9,7 +9,7 @@ let navbar = () =>{
         <a href="./magazine.html">MAGAZINE</a>
     </div>
     <div>
-        <a href="#">OUTLOOK</a>
+        <a href="./outlook.html">OUTLOOK</a>
     </div>
     <div>
         <a href="#">BUSINESS</a>
@@ -45,7 +45,8 @@ let navbar = () =>{
     </div>
     <div>
         <a href="#">AGRITECH</a>
-    </div>`
+    </div>
+    `
 }
 
 export default navbar
