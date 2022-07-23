@@ -6,6 +6,7 @@ for(let i=1;i<=4;i++){
         let x = document.querySelector(`#amount-${i}`).innerHTML;
         console.log(x)
         localStorage.setItem("amount",JSON.stringify(x));
+        window.location.href = "../verification/email.html"
         
     }
 }

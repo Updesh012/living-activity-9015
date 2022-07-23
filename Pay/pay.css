@@ -15,6 +15,14 @@
     
 
 }
+input::placeholder{
+    color: red;
+}
+#right_div>a{
+    color: black;
+    text-decoration: underline black;
+    
+}
 
 #varification{
     margin: auto;
