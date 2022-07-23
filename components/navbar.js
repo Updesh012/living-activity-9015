@@ -18,15 +18,16 @@ let navbar = () =>{
         <a href="./money.html">MONEY</a>
     </div>
     <div>
-        <a href="#">CRYPTO CORNER</a>
+    <a href="./sports.html  ">SPORTS</a>
+    </div>
+    <div>
+        <a href="./headlines.html">CRYPTO CORNER</a>
     </div>
 
     <div>
-        <a href="#">TRAVEL</a>
-    </div>
-    <div>
         <a href="./sports.html">SPORTS</a>
     </div>
+   
     <div>
         <a href="#">VIDEOS</a>
     </div>
