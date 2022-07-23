@@ -17,9 +17,8 @@ body {
     /* font-family: 'kepler-std-condensed-subhead', serif; */
 }
 
-#nfContainer {
+.newsDetailsContainer {
     width: 98%;
-    margin: auto;
     margin: auto;
     margin-top: 20px;
     display: grid;
@@ -27,86 +26,15 @@ body {
     gap: 2%;
 }
 
-#nfDiv1SideHeading:hover {
-    color: #D2051E;
-}
-
-#nfDiv1Img {
-    width: 100%;
-}
-
-#nfDiv1SideHeading {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 22px;
-}
-
-#nfDiv1Description {
-    font-size: 16px;
-    line-height: 24px;
-}
-
-#nfDiv1PublishedByDiv {
-    font-size: 16px;
-    line-height: 15.6px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-}
-
 #nfDiv1PublishedBy {
     color: #D2051E;
-}
-
-#nfDiv2div1 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#nfDiv2div2 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#nfDiv3div3 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#nfDiv3div4 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#nfDiv4div5 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#nfDiv4div6 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
 }
 
 .smallImg {
     height: 100px;
     width: 100%;
-}
+    cursor: pointer;
 
-.titleSmall {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    line-height: 22px;
-}
-
-.contentSmall {
-    font-size: 16px;
-    line-height: 24px;
 }
 
 .publishedByDivSmall {
@@ -121,41 +49,29 @@ body {
     color: #D2051E;
 }
 
-
-
-
-/* Entertainment */
-#enterContainer {
-    width: 98%;
-    margin: auto;
-    margin: auto;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 34% 20% 20% 20%;
-    gap: 2%;
+.mainNewsImg {
+    width: 100%;
+    cursor: pointer;
 }
 
-#enterDiv1SideHeading:hover {
+.newsTitle:hover {
     color: #D2051E;
 }
 
-#enterDiv1Img {
-    width: 100%;
-}
-
-#enterDiv1SideHeading {
+.newsTitle {
     margin-top: 15px;
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 22px;
+    cursor: pointer;
 }
 
-#enterDiv1Description {
+.newsdescription {
     font-size: 16px;
     line-height: 24px;
 }
 
-#enterDiv1PublishedByDiv {
+.publishedByDiv {
     font-size: 16px;
     line-height: 15.6px;
     margin-top: 10px;
@@ -163,38 +79,12 @@ body {
     align-items: center;
 }
 
-#enterDiv1PublishedBy {
-    color: #D2051E;
-}
-
-#enterDiv2div1 {
+.oddDiv {
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(219, 219, 219);
 }
 
-#enterDiv2div2 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#enterDiv3div3 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#enterDiv3div4 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#enterDiv4div5 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-#enterDiv4div6 {
+.evenDiv {
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(219, 219, 219);
