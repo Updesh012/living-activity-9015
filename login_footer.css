@@ -5,6 +5,12 @@
     /* font-family: open sans-serif; */
     font-family: "Open Sans", sans-serif;
 }
+#h6{
+    margin-top: 5px;
+}
+#topH1{
+    margin-bottom: 2%;
+}
 
 #login_div{
     border: 1px solid transparent;
