@@ -1,23 +1,4 @@
 
-
-// import navbar from "../components/navbar.js";
-// document.getElementById("navbar").innerHTML = navbar()
-
-// // const d = new Date()
-// let removeTime = (date = new Date()) =>{
-//     return new Date(date.toDateString())
-// }
-// // d.setFullYear(2022);
-// // let text = d.toUTCString()
-// document.getElementById("demo").innerHTML = new Date().toDateString();
-
-
-
-
-
-
-
-
 async function myFunction() {
   let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=280cfd40a460489e99d7b0bf899d28c3`;
   try {
@@ -39,11 +20,6 @@ function appendData(data) {
   data.forEach((el) => {
     // console.log(el);
     let div1 = document.createElement("div");
-    //div1.setAttribute("class", `news${count}`);
-    // div1.addEventListener("click", function () {
-    //   dataDisplay(el);
-    // });
-
 
     let image = document.createElement("img");
     image.setAttribute("id", "image")
@@ -80,10 +56,3 @@ function appendData(data) {
   });
 
 }
-
-
-
-  // function dataDisplay(data) {
-  //   window.location.href = "details.html";
-  //   let news = localStorage.setItem("newsdata", JSON.stringify(data));
-  // }
