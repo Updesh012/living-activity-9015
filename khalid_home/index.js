@@ -74,6 +74,86 @@ let displayShort = (data) => {
     })
 }
 
+// entertainment
+
+let displayEntertainment = (data) => {
+
+    data.forEach((elem) => {
+        const enterDiv1Img = document.querySelector('#enterDiv1Img');
+        const enterDiv1SideHeading = document.querySelector('#enterDiv1SideHeading');
+        const enterDiv1PublishedBy = document.querySelector('#enterDiv1PublishedBy');
+        const enterDiv1Description = document.querySelector('#enterDiv1Description');
+        const enterDiv1PublishedByDate = document.querySelector('#enterDiv1PublishedByDate');
+
+        enterDiv1Img.src = elem.urlToImage;
+        enterDiv1SideHeading.innerText = elem.title;
+        enterDiv1Description.innerText = elem.description + elem.content;
+        enterDiv1PublishedByDate.innerText = ` | ${elem.publishedAt}`
+        enterDiv1PublishedBy.innerHTML = `${elem.source.name}`
+    })
+}
+
+let displayShortEntertainment = (data) => {
+    let idNumber = 1
+    let count = 0
+    data.forEach((elem) => {
+
+        const img = document.createElement('img');
+        img.classList = "smallImg"
+        img.src = elem.urlToImage
+
+        const title = document.createElement('h3');
+        title.classList = "titleSmall"
+        title.innerText = elem.title
+
+        const description = document.createElement('p');
+        description.classList = "descriptionSmall"
+        description.innerText = elem.description
+
+        const publishedByDivSmall = document.createElement('div');
+        publishedByDivSmall.classList = "publishedByDivSmall"
+
+        const publishedBySmallName = document.createElement('p');
+        publishedBySmallName.classList = "publishedBySmallName"
+        publishedBySmallName.innerText = `${elem.source.name}`;
+
+        const publishedBy = document.createElement('p');
+        publishedBy.classList = "publishedBy"
+        publishedBy.innerHTML = ` | ${elem.publishedAt}`;
+
+        publishedByDivSmall.append(publishedBySmallName, publishedBy)
+
+        if (count < 2) {
+            const div = document.querySelector(`#enterDiv2div${idNumber}`);
+            count++
+            idNumber++
+            div.append(img, title, description, publishedByDivSmall)
+        }
+        else if (count < 4) {
+            const div = document.querySelector(`#enterDiv3div${idNumber}`);
+            count++
+            idNumber++
+            div.append(img, title, description, publishedByDivSmall)
+        }
+        else if (count < 6) {
+            const div = document.querySelector(`#enterDiv4div${idNumber}`);
+            count++
+            idNumber++
+            div.append(img, title, description, publishedByDivSmall)
+        }
+    })
+}
+
+
+fetch(entertainmentUrl).then((res) => {
+    return res.json()
+}).then((res) => {
+    // console.log(res.articles)
+    displayEntertainment(res.articles)
+    displayShortEntertainment(res.articles)
+}).catch((err) => {
+    console.log(err)
+});
 
 fetch(topHeadlines).then((res) => {
     return res.json()
