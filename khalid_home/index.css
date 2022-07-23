@@ -121,3 +121,81 @@ body {
     color: #D2051E;
 }
 
+
+
+
+/* Entertainment */
+#enterContainer {
+    width: 98%;
+    margin: auto;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 34% 20% 20% 20%;
+    gap: 2%;
+}
+
+#enterDiv1SideHeading:hover {
+    color: #D2051E;
+}
+
+#enterDiv1Img {
+    width: 100%;
+}
+
+#enterDiv1SideHeading {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#enterDiv1Description {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#enterDiv1PublishedByDiv {
+    font-size: 16px;
+    line-height: 15.6px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#enterDiv1PublishedBy {
+    color: #D2051E;
+}
+
+#enterDiv2div1 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+#enterDiv2div2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+#enterDiv3div3 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+#enterDiv3div4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+#enterDiv4div5 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+#enterDiv4div6 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
