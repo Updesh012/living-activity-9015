@@ -1,80 +1,99 @@
-#top{
+#top {
     text-align: center;
+    width: 100%;
 }
-a{
+
+#navbar {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+a {
     text-decoration: none;
     color: black;
     font-family: sans-serif;
 }
-#top>h1{
+
+
+#topH1 {
+
     color: #D2051E;
     font-size: 60px;
 
 }
-#top+p{
-    margin-top: -35px;
-    font-family: sans-serif;
+
+#topP {
+    margin-top: -25px;
+
 }
-#navbar{
-    display: flex;
-    gap: 20px;
-    margin-left: 170px;
-    margin-top: 50px;
-    
-    
-}
-div>a{
+
+#navbar>div>a {
     color: rgb(49, 49, 49);
     font-weight: 530;
     font-size: 17px;
     
 }
-h6{
-    border: 1px solid #D2051E ;
-    /* margin: 5px; */
+
+#h6 {
+    border: 1px solid #D2051E;
+    margin: 5px;
+
 }
-span{
-    color:red;
+
+span {
+    color: red;
     font-size: 18px;
 }
-section{
+
+#logoSec {
     display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
 }
-#logo{
-    margin-left:1400px;
-   
- }
- #logo>a{
+
+#logo>a {
     padding: 10px;
     border-radius: 2px;
-       color: whitesmoke;
-    
+    color: whitesmoke;
+
 }
-.fa-facebook{
-    background-color:#3B5998 ;
+
+.fa-facebook {
+    background-color: #3B5998;
 }
-.fa-twitter{
+
+.fa-twitter {
     background-color: #55ACEE;
 }
-.fa-google{
+
+.fa-google {
     background-color: #dd4b39;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     background-color: #007bb5;
 }
-#demo{
-    background: #1A2980;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color: whitesmoke;
-border-radius: 4px;
-padding-top: 7px;
+
+#demo {
+    background: #1A2980;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+    border-radius: 4px;
+    padding-top: 7px;
 }
+
 #fix a:hover {
     background-color: red;
     color: whitesmoke;
-    border-radius: 5px;   
-  }
+}
+ 
+
   #fix{
     cursor: pointer;
-  }
+}

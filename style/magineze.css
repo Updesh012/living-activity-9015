@@ -1,4 +1,4 @@
-#container{
+#container {
     display: grid;
     grid-template-columns: repeat(4, 405px);
     gap: 20px;
@@ -7,199 +7,236 @@
 
 }
 
-img{
-    width:404px;
+img {
+    width: 404px;
     margin-bottom: 10px;
 }
-img+a{
-    margin-top:15px;
+
+img+a {
+    margin-top: 15px;
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 550;
     border-radius: 2px;
-   
+
 }
-a+p{
+
+a+p {
     margin-top: 15px;
     font-family: sans-serif;
     color: rgb(92, 88, 88);
 }
-img+a:hover{
+
+img+a:hover {
     color: #D2051E;
 }
-#red{
+
+#red {
     margin-top: 5px;
     color: #E0031B;
 }
-#red+p{
+
+#red+p {
     padding: 10px;
 }
 
-#container2{
+#container2 {
     font-family: sans-serif;
     display: flex;
     margin-top: 40px;
 }
-#part1{
+
+#part1 {
     margin-left: 40px;
     margin-right: 130px;
 }
-#heading{
+
+#heading {
     font-size: 34px;
 }
-#heading+h1{
+
+#heading+h1 {
     border: 1px solid black;
     margin-right: 70px;
     margin-top: -10px;
     margin-bottom: 15px;
 }
-#heading+h2{
+
+#heading+h2 {
     border: 1px solid black;
     margin-top: -10px;
     margin-right: 70px;
 }
-#flex1{
+
+#flex1 {
     display: flex;
     /* border: 1px solid red; */
     width: 900px;
 }
-#para{
+
+#para {
     margin-top: 30px;
     padding: 5px;
 }
-.page{
+
+.page {
     font-size: 28px;
     font-family: serif;
     padding: 5px;
     cursor: pointer;
 }
-.page:hover{
+
+.page:hover {
     color: rgb(228, 34, 34);
     font-weight: 550;
 }
-#image2{
+
+#image2 {
     width: 300px;
 }
 
-#para2{
+#para2 {
     /* border: 1px solid red; */
     padding: 40px;
     margin-top: 10px;
     width: 400px;
 }
-.p2{
+
+.p2 {
     font-size: 22px;
-    
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.p2::first-letter{
+
+.p2::first-letter {
     color: red;
 }
-.p2+p{
+
+.p2+p {
     color: rgb(100, 96, 96);
     margin-top: 0px;
 }
-#container3{
+
+/* #container3{
     /* display: flex; */
-}
-#section1{
+/* } */
+*/ #section1 {
     display: grid;
     grid-template-columns: repeat(3, 550px);
     gap: 20;
     margin-left: 50px;
     margin-right: 70px;
 }
-#section2{
+
+#section2 {
     display: grid;
     grid-template-columns: repeat(3, 550px);
     gap: 20;
     margin-left: 50px;
     margin-right: 70px;
 }
-#card1{
+
+#card1 {
     /* border: 1px solid red; */
     margin-bottom: 10px;
     height: 700px;
     width: 500px;
 }
-#card2{
+
+#card2 {
     /* border: 1px solid red; */
     margin-bottom: 10px;
     height: 700px;
     width: 500px;
 }
-#card3{
+
+#card3 {
     /* border: 1px solid red; */
     margin-bottom: 10px;
     height: 700px;
     width: 500px;
-    
-    
+
+
 }
-#line{
+
+#line {
     border: 1px solid black;
     margin-top: -5px;
     margin-bottom: 15px;
-    
+
 }
-#Heading{
+
+#Heading {
     margin-top: 20px;
     font-family: serif;
     font-size: 28px;
     margin-left: 5px;
 }
-#image3{
+
+#image3 {
     width: 500px;
     border-radius: 5px;
 }
-#image3+p,p,p{
-margin-top: 20px;
-font-family:serif ;
-font-size: 24px ;
+
+#image3+p,
+p,
+p {
+    margin-top: 20px;
+    font-family: serif;
+    font-size: 24px;
 }
 
-#flextime{
+#flextime {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-#Heading-A{
+
+#Heading-A {
     font-size: 36px;
     margin-left: 10px;
 }
-#flextime>div{
+
+#flextime>div {
     /* border: 1px solid red; */
     padding: 10px;
     padding-left: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
-mark{
+
+mark {
     border-radius: 5px;
     padding: 5px;
 }
-#image4{
+
+#image4 {
     width: 470px;
     border-radius: 5px;
 }
-#image4+p{
+
+#image4+p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
-.card-A>p+p{
+
+.card-A>p+p {
     color: rgb(86, 81, 81);
     font-size: 20px;
-    
+
 }
-.card-B>p+p{
+
+.card-B>p+p {
     color: rgb(86, 81, 81);
     font-size: 20px;
-    
+
 }
-.card-C>p+p{
+
+.card-C>p+p {
     color: rgb(86, 81, 81);
     font-size: 20px;
-    
+
 }
-#red{
+
+#red {
     font-size: 16px;
 }
