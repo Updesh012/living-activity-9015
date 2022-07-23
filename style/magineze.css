@@ -7,6 +7,7 @@
     margin-left: 5px;
 }
 
+
 /* #container> */
 
 
@@ -74,7 +75,6 @@ img+a:hover {
 
 #flex1 {
     display: flex;
-    /* border: 1px solid red; */
     width: 900px;
 }
 
@@ -121,10 +121,11 @@ img+a:hover {
     margin-top: 0px;
 }
 
-/* #container3{
-    /* display: flex; */
-/* } */
-*/ #section1 {
+ /* #container3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}  */
+ #section1 {
     display: grid;
     grid-template-columns: repeat(3, 550px);
     gap: 20;
@@ -141,21 +142,18 @@ img+a:hover {
 }
 
 #card1 {
-    /* border: 1px solid red; */
     margin-bottom: 10px;
     height: 700px;
     width: 500px;
 }
 
 #card2 {
-    /* border: 1px solid red; */
     margin-bottom: 10px;
     height: 700px;
     width: 500px;
 }
 
 #card3 {
-    /* border: 1px solid red; */
     margin-bottom: 10px;
     height: 700px;
     width: 500px;
@@ -165,7 +163,6 @@ img+a:hover {
 
 #line {
     border: 1px solid black;
-    margin-top: -5px;
     margin-bottom: 15px;
 
 }
@@ -201,7 +198,6 @@ p {
 }
 
 #flextime>div {
-    /* border: 1px solid red; */
     padding: 10px;
     padding-left: 20px;
     margin-left: 20px;
