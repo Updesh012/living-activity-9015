@@ -25,7 +25,7 @@ let navbar = () =>{
         <a href="#">TRAVEL</a>
     </div>
     <div>
-        <a href="#">SPORTS</a>
+        <a href="./sports.html">SPORTS</a>
     </div>
     <div>
         <a href="#">VIDEOS</a>

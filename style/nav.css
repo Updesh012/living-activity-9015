@@ -4,6 +4,8 @@
 }
 
 #navbar {
+    width: 90%;
+    margin: auto;
     display: flex;
     margin-top: 50px;
     justify-content: space-evenly;
