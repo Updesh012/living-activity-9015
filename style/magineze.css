@@ -1,14 +1,18 @@
 #container {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 405px);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     font-family: sans-serif;
     margin-left: 5px;
-
 }
 
+/* #container> */
+
+
+
 img {
-    width: 404px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -239,4 +243,8 @@ mark {
 
 #red {
     font-size: 16px;
+}
+
+.p1{
+    width: 100%;
 }
