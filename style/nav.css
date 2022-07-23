@@ -15,7 +15,9 @@ a {
     font-family: sans-serif;
 }
 
+
 #topH1 {
+
     color: #D2051E;
     font-size: 60px;
 
@@ -23,19 +25,20 @@ a {
 
 #topP {
     margin-top: -25px;
-    font-family: sans-serif;
+
 }
 
 #navbar>div>a {
     color: rgb(49, 49, 49);
     font-weight: 530;
     font-size: 17px;
-
+    
 }
 
 #h6 {
     border: 1px solid #D2051E;
     margin: 5px;
+
 }
 
 span {
@@ -88,10 +91,9 @@ span {
 #fix a:hover {
     background-color: red;
     color: whitesmoke;
-    border-radius: 5px;
-
 }
+ 
 
-#fix {
+  #fix{
     cursor: pointer;
 }
