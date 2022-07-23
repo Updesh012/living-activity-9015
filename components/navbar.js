@@ -12,10 +12,10 @@ let navbar = () =>{
         <a href="./outlook.html">OUTLOOK</a>
     </div>
     <div>
-        <a href="#">BUSINESS</a>
+        <a href="./business.html">BUSINESS</a>
     </div>
     <div>
-        <a href="#">MONEY</a>
+        <a href="./money.html">MONEY</a>
     </div>
     <div>
         <a href="#">CRYPTO CORNER</a>

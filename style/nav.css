@@ -6,13 +6,13 @@ a{
     color: black;
     font-family: sans-serif;
 }
-h1{
+#top>h1{
     color: #D2051E;
     font-size: 60px;
 
 }
-p{
-    margin-top: -25px;
+#top+p{
+    margin-top: -35px;
     font-family: sans-serif;
 }
 #navbar{
@@ -31,7 +31,7 @@ div>a{
 }
 h6{
     border: 1px solid #D2051E ;
-    margin: 5px;
+    /* margin: 5px; */
 }
 span{
     color:red;
@@ -73,9 +73,7 @@ padding-top: 7px;
 #fix a:hover {
     background-color: red;
     color: whitesmoke;
-    border-radius: 5px;
-    padding: 5px;
-    
+    border-radius: 5px;   
   }
   #fix{
     cursor: pointer;
