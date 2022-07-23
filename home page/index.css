@@ -1,0 +1,148 @@
+#container{
+    display:flex;
+    height:1000px;
+    width:100%;
+     /* border:1px solid red;  */
+    gap:30px;
+    margin:auto;
+}
+#image{
+    width:100%
+}
+
+#news1{
+    height:70%;
+    width:90%;
+    /* border:1px solid red */
+    /* border-right: #000000; */
+}
+#news2{
+    height:70%;
+    width:50%;
+    /* border:1px solid red; */
+    /* border-right: #000000; */
+}
+#container2{
+    margin-top: -190px;
+    display:flex;
+    height:900px;
+    width:100%;
+     
+     gap:20px;
+}
+#news3{
+    height:80%;
+    width:60%;
+    /* border:1px solid red; */
+}
+#news4{
+    height:80%;
+    width:30%;
+    /* border:1px solid red; */
+}
+#hr{
+    margin-top: -160px;
+}
+#container3{
+  
+    display:flex;
+    height:800px;
+    width:100%;
+    /* border:1px solid red;  */
+     gap:20px;
+}
+ 
+#news5{
+    height:100%;
+    width:33%;
+    /* border:1px solid red; */
+}
+#news6{
+    height:100%;
+    width:33%;
+    /* border:1px solid red; */
+}
+#news7{
+    height:100%;
+    width:33%;
+    /* border:1px solid red; */
+}
+#container5{
+  
+    display:flex;
+    height:650px;
+    width:100%;
+    /* border:1px solid red;  */
+     gap:20px;
+}
+ 
+#news8{
+    height:100%;
+    width:24%;
+    /* border:1px solid red; */
+}
+ 
+ #news9{
+    height:100%;
+    width:24%;
+    /* /* border:1px solid red; */
+} 
+ 
+#news10{
+    height:100%;
+    width:24%;
+    /* border:1px solid red; */
+}
+ 
+#news11{
+    height:100%;
+    width:24%;
+    /* border:1px solid red; */
+} 
+#container6{
+  
+    display:flex;
+    height:630px;
+    width:100%;
+    /* border:1px solid red;  */
+     gap:20px;
+}
+#news12{
+    height:100%;
+    width:24%;
+    /* border:1px solid red; */
+}
+ 
+ #news13{
+    height:100%;
+    width:24%;
+    /* border:1px solid red; */
+}
+ 
+#news14{
+    height:100%;
+    width:24%;
+    /* border:1px solid red; */
+}
+ 
+#news15{
+    height:100%;
+    width:24%;
+    /* border:1px solid red; */
+} 
+#tit{
+    font-size: 46px;
+    font-family:kepler-std,serif;
+}
+#tit:hover{
+    color: #D2051E;
+    cursor: pointer;
+}
+#content:hover{
+    cursor: pointer;
+}
+
+.m{
+    display: flex;
+    justify-content: space-between;
+}
