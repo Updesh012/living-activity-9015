@@ -7,7 +7,8 @@
     margin:auto;
 }
 #image{
-    width:100%
+    width:100%;
+    cursor: pointer;
 }
 
 #news1{

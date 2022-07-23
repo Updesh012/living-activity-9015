@@ -3,7 +3,7 @@ let navbar = () =>{
     
 
     <div>
-        <a href="navbar.html">HOME</a>
+        <a href="./index.html">HOME</a>
     </div>
     <div>
         <a href="./magazine.html">MAGAZINE</a>
