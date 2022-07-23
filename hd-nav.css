@@ -43,7 +43,11 @@ span{
 }
 section{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    gap: 1050px;
+}
+#logo{
+    margin-right: -550px;
 }
 
  #logo>a{
@@ -65,10 +69,12 @@ section{
     background-color: #007bb5;
 }
 #demo{
+    margin-left: -340px;
     background: #1A2980;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /*Chrome 10-25, Safari 5.1-6*/
 background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color: whitesmoke;
 border-radius: 4px;
 padding-top: 7px;
+margin-left: -500px;
 }

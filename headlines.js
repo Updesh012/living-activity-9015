@@ -43,13 +43,7 @@ function append(data){
     })
 }
 
-//console.log(dd)
 
-// // d.setFullYear(2022);
-// // let text = d.toUTCString()
-//document.getElementById("demo").innerHTML =
-
-//console.log(x)
 
 let arr=["https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658303359.webp",
          "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658319241.webp",
@@ -57,7 +51,7 @@ let arr=["https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_
         "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658329806.webp"];
 
    var  phtgl= document.getElementById('photo_gal')
-   console.log(phtgl)
+   //console.log(phtgl)
    let i=0;
         setInterval(function (){
             if(i===3){
