@@ -1,6 +1,7 @@
 
 // let key = `0a3107f541194a9e9b886bdcbbb671d0`
-let key = `b6067b778da746ecb9ba3e2366565000`
+// let key = `b6067b778da746ecb9ba3e2366565000`
+let key = `396425de039f483eb2352be93f7f5ded`
 let topHeadlines = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${key}`
 let entertainmentUrl = `https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=${key}`
 let sportsUrl = `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=${key}`
@@ -49,6 +50,14 @@ let displayShort = (data) => {
         title.classList = "newsTitle"
         title.innerText = elem.title
 
+        img.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
+        title.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
         const description = document.createElement('p');
         description.classList = "newsdescription"
         description.innerText = elem.description
@@ -91,7 +100,7 @@ let displayShort = (data) => {
 fetch(topHeadlines).then((res) => {
     return res.json()
 }).then((res) => {
-    // console.log(res.articles)
+    console.log(res.articles)
     displayData(res.articles)
     displayShort(res.articles)
 }).catch((err) => {
@@ -138,6 +147,14 @@ let displayShortEntertainment = (data) => {
         const title = document.createElement('h3');
         title.classList = "newsTitle"
         title.innerText = elem.title
+
+        img.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
+        title.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
 
         const description = document.createElement('p');
         description.classList = "newsdescription"
@@ -228,6 +245,14 @@ let displayShortSports = (data) => {
         const title = document.createElement('h3');
         title.classList = "newsTitle"
         title.innerText = elem.title
+
+        img.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
+        title.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
 
         const description = document.createElement('p');
         description.classList = "newsdescription"
@@ -322,6 +347,14 @@ let displayShortTech = (data) => {
         title.classList = "newsTitle"
         title.innerText = elem.title
 
+        img.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
+        title.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
         const description = document.createElement('p');
         description.classList = "newsdescription"
         description.innerText = elem.description
@@ -411,6 +444,14 @@ let displayShortHealth = (data) => {
         const title = document.createElement('h3');
         title.classList = "newsTitle"
         title.innerText = elem.title
+
+        img.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
+        title.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
 
         const description = document.createElement('p');
         description.classList = "newsdescription"
@@ -503,6 +544,14 @@ let displayShortScience = (data) => {
         const title = document.createElement('h3');
         title.classList = "newsTitle"
         title.innerText = elem.title
+
+        img.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
+
+        title.addEventListener("click", () => {
+            window.location.href = elem.url
+        })
 
         const description = document.createElement('p');
         description.classList = "newsdescription"
