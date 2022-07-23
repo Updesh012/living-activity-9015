@@ -26,5 +26,30 @@ function change_icon(){
 
 // *************************changing icon***********************
 
+let datafromls = JSON.parse(localStorage.getItem("details")) || [];
+console.log(datafromls)
+document.querySelector("form").addEventListener("submit",check)
 
+function check(event){
+    event.preventDefault();
+    console.log("hi")
+
+    let pass = document.querySelector("#pass").value;
+    let num = document.querySelector("#num").value;
+
+    let fil = datafromls.filter(function(elem){
+
+        return elem.password === pass && elem.number === num
+
+    })
+
+    if(fil.length > 0){
+        alert("Sign in Successful")
+        window.location.href = "index.html"
+    }
+    else{
+        alert("Invalid Details")
+    }
+
+}
 
