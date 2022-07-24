@@ -1,4 +1,4 @@
-let  getData = async (url) =>{
+let getData = async (url) => {
     let res = await fetch(url);
     let data = await res.json();
 
@@ -9,7 +9,7 @@ let  getData = async (url) =>{
 }
 
 let append = (data, cont) => {
-    data.forEach(({title, urlToImage , description, author}) => {
+    data.forEach(({ title, urlToImage, description, author }) => {
 
         let img = document.createElement("img")
         img.src = urlToImage
@@ -30,6 +30,6 @@ let append = (data, cont) => {
 
     });
 }
-export {getData, append}
+export { getData, append }
 
 // title  urlToImage description content author

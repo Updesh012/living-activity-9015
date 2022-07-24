@@ -3,7 +3,7 @@ document.getElementById("navbar").innerHTML = navbar()
 
 
 /*  Date Data Here YOU want copy this for Date */
-let removeTime = (date = new Date()) =>{
+let removeTime = (date = new Date()) => {
     return new Date(date.toDateString())
 }
 document.getElementById("demo").innerHTML = new Date().toDateString();
@@ -15,7 +15,7 @@ import { getData, append } from "./fetch.js"
 
 let container = document.getElementById("container")
 
-getData(url).then((res) =>{
+getData(url).then((res) => {
     console.log(res)
     append(res, container);
 });
