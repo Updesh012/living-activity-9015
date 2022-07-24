@@ -2,9 +2,9 @@ import navbar from  "./components/navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar()
 
-const api_key=`d9b5c5df959141f49872b888ccf266d4`;
+//const api_key=`d9b5c5df959141f49872b888ccf266d4`;
 
-const url=`https://newsapi.org/v2/top-headlines?sources=sports&apiKey=d9b5c5df959141f49872b888ccf266d4`
+const url=`https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=d9b5c5df959141f49872b888ccf266d4`
 
 async function getdata(url){
     let res= await fetch(url)
@@ -39,6 +39,28 @@ function append(data){
 
     })
 }
+
+let arr=["https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658303359.webp",
+         "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658319241.webp",
+        "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658320464.webp",
+        "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658329806.webp"];
+
+   var  phtgl= document.getElementById('photo_gal')
+   console.log(phtgl)
+   let i=0;
+        setInterval(function (){
+            if(i===3){
+                i=0;
+            }
+            phtgl.innerHTML=null
+            let image=document.createElement('img')
+            image.src=arr[i]
+            phtgl.append(image)
+            i++;
+        },3000)
+
+
+
 
 // let removeTime = (date = new Date()) =>{
 //     return new Date(date.toDateString())

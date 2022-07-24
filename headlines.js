@@ -4,7 +4,7 @@ document.getElementById("navbar").innerHTML = navbar()
 
 const api_key=`d9b5c5df959141f49872b888ccf266d4`;
 
-const url=`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d9b5c5df959141f49872b888ccf266d4`
+const url=`https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=d9b5c5df959141f49872b888ccf266d4`
 
 async function getdata(url){
     let res= await fetch(url)
@@ -43,10 +43,23 @@ function append(data){
     })
 }
 
-//console.log(dd)
 
-// // d.setFullYear(2022);
-// // let text = d.toUTCString()
-//document.getElementById("demo").innerHTML =
 
-console.log(x)
+let arr=["https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658303359.webp",
+         "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658319241.webp",
+        "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658320464.webp",
+        "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658329806.webp"];
+
+   var  phtgl= document.getElementById('photo_gal')
+   //console.log(phtgl)
+   let i=0;
+        setInterval(function (){
+            if(i===3){
+                i=0;
+            }
+            phtgl.innerHTML=null
+            let image=document.createElement('img')
+            image.src=arr[i]
+            phtgl.append(image)
+            i++;
+        },3000)

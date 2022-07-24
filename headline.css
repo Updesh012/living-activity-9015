@@ -36,6 +36,13 @@
     width: 100%;
 }
 
+#container-bottom{
+    display: flex;
+}
+#bottom-ads{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 #bottom-append{
     width: 80%;
@@ -69,4 +76,22 @@
     margin-top: 20px;
     width: 200px;
     color: grey;
+}
+
+#photo_gal{
+    margin-top: 30px;
+    width: 330px;
+}
+#bottom-ads>p{
+    margin-top: 120px;
+    color: #D2051E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+#photo_gal>img{
+    width: 100%;
+}
+#video{
+    margin-top: 30px;
 }
