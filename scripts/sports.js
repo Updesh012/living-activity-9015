@@ -1,10 +1,10 @@
-import navbar from  "./components/navbar.js";
+import navbar from  "../components/navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar()
 
-const api_key=`d9b5c5df959141f49872b888ccf266d4`;
+//const api_key=`d9b5c5df959141f49872b888ccf266d4`;
 
-const url=`https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=d9b5c5df959141f49872b888ccf266d4`
+const url=`https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=d9b5c5df959141f49872b888ccf266d4`
 
 async function getdata(url){
     let res= await fetch(url)
@@ -13,10 +13,6 @@ async function getdata(url){
     append(data.articles)
 }
 getdata(url)
-
-let removeTime = (date = new Date()) =>{
-    return new Date(date.toDateString())
- }
 
 function append(data){
     let container=document.getElementById('bottom-append')
@@ -31,6 +27,7 @@ function append(data){
         let y=document.createElement('p')
         y.innerText=x;
         y.setAttribute("class","date")
+        
 
         let det=document.createElement('p')
         det.innerText=el.description;
@@ -43,15 +40,13 @@ function append(data){
     })
 }
 
-
-
 let arr=["https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658303359.webp",
          "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658319241.webp",
         "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658320464.webp",
         "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1658329806.webp"];
 
    var  phtgl= document.getElementById('photo_gal')
-   //console.log(phtgl)
+   console.log(phtgl)
    let i=0;
         setInterval(function (){
             if(i===3){
@@ -63,3 +58,13 @@ let arr=["https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_
             phtgl.append(image)
             i++;
         },3000)
+
+
+
+
+// let removeTime = (date = new Date()) =>{
+//     return new Date(date.toDateString())
+// }
+// // d.setFullYear(2022);
+// // let text = d.toUTCString()
+// document.getElementById("demo").innerHTML = new Date().toDateString();
