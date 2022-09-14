@@ -25,11 +25,11 @@ let navbar = () =>{
     </div>
 
     <div>
-<<<<<<< HEAD
+
         <a href="./travel.html">TRAVEL</a>
-=======
+
         <a href="./sports.html">SPORTS</a>
->>>>>>> 7da6f91211fa8bd6476769b6cdba0b5f3d98907f
+
     </div>
    
     <div>
